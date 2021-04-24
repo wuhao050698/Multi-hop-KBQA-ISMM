@@ -1,0 +1,5 @@
+1 | train loss 0.172786(0.172786)(0.172791) | train eval: 0.990509  | val eval: 0.991708  | test eval: 0.991774  (saved model)
+1 | train loss 0.855969(0.855969)(0.855964) | train eval: 0.250441  | val eval: 0.244896  | test eval: 0.249536  (saved model)
+2 | train loss 0.758823(0.758823)(0.758828) | train eval: 0.262675  | val eval: 0.252675  | test eval: 0.257878  (saved model)
+3 | train loss 0.705284(0.705284)(0.705279) | train eval: 0.267966  | val eval: 0.256782  | test eval: 0.259687  (saved model)
+4 | train loss 0.657891(0.657891)(0.657893) | train eval: 0.27168  | val eval: 0.254418 
