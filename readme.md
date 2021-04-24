@@ -6,7 +6,7 @@ This is the code for the MSBD5002 project.
 # [detail for EmbedKGQA](MLRC2020-EmbedKGQA/readme.md)
 
 
-## Iterative Sequence Matching Model
+# Iterative Sequence Matching Model
  
 # EmbedKGQA
 This is the code for ACL 2020 paper [Improving Multi-hop Question Answering over Knowledge Graphs using Knowledge Base Embeddings](https://malllabiisc.github.io/publications/papers/final_embedkgqa.pdf)
@@ -86,10 +86,15 @@ Creating fbwq_half: We randomly sample 50% of the edges from fbwq_full.
 Same as the original WebQuestionsSP QA dataset.
 
 #3.The description of each source file
+
 3.1. train_embeddings: the file include all the python script to training the embedding for question and Knowledge
+
 3.2. KGQA: the file include all the python script run to train the models (Include LSTM,RoBERTa)
+
 3.3. kge: A very helpful library and we suggest that you train embeddings through it since it supports sparse embeddings + shared negative sampling to speed up learning for large KGs like Freebase.
+
 3.4. data(Need to download and Unzip): data all the data file (KG dataset and Question Answering DataSet)
+
 3.5  pretrained_modelsa(Need to download and Unzip): inclued all the pretrain ComplEx embedding models
 
 
@@ -97,7 +102,9 @@ Same as the original WebQuestionsSP QA dataset.
 
 #4. An example to show how to run the program
 For exmpale, run the EmbedKGQA on 2 hops questions from MetaQA dataset with KG-50.
+
 Step1:Download data.zip and pretrained_model.zip from [here](https://drive.google.com/drive/folders/1RlqGBMo45lTmWz9MUPTq-0KcjSd3ujxc?usp=sharing). Unzip these files in the main directory.
+
 Step2:Change to directory ./KGQA/LSTM. Run following command to run the QA training code.
 
 ```
@@ -107,10 +114,12 @@ python3 main.py --mode train --relation_dim 200 --hidden_dim 256 \
 ```
 
 Two Important Parameters:
+
 Hops Question Type: 
 --hops 1
 --hops 2
 --hops 3
+
 Knowledge Graph Type:
 --kg_type Full
 --kg_type half
