@@ -2,7 +2,7 @@
 
 This is the code for the MSBD5002 project.
 
-# [detail for ISMM](ISMM/readme.md)
+# [detail for ISMM](ISMM/README.md)
 # [detail for EmbedKGQA](MLRC2020-EmbedKGQA/readme.md)
 
 
