@@ -1,13 +1,4 @@
-# Research of Multi-hop Knowledge Base Question Answering with an Iterative Sequence Matching Model
 
-This is the code for the MSBD5002 project.
-
-# detail for ISMM
-# [detail for EmbedKGQA](MLRC2020-EmbedKGQA/readme.md)
-
-
-## Iterative Sequence Matching Model
- 
 # EmbedKGQA
 This is the code for ACL 2020 paper [Improving Multi-hop Question Answering over Knowledge Graphs using Knowledge Base Embeddings](https://malllabiisc.github.io/publications/papers/final_embedkgqa.pdf)
 
