@@ -20,10 +20,10 @@ UPDATE: Code for relation matching has been added. Please see the [Readme](KGQA/
 - [transformers](https://github.com/huggingface/transformers)
 - linux/Colab, use GPU
 
-#1. How to compile
+# 1. How to compile
 No Need to compile with this python file.
 
-#2. How to Execute
+# 2. How to Execute
 In order to run the code, first download data.zip and pretrained_model.zip from [here](https://drive.google.com/drive/folders/1RlqGBMo45lTmWz9MUPTq-0KcjSd3ujxc?usp=sharing). Unzip these files in the main directory.
 
 ## MetaQA
@@ -85,7 +85,7 @@ Creating fbwq_half: We randomly sample 50% of the edges from fbwq_full.
 
 Same as the original WebQuestionsSP QA dataset.
 
-#3.The description of each source file
+# 3.The description of each source file
 
 3.1. train_embeddings: the file include all the python script to training the embedding for question and Knowledge
 
@@ -100,7 +100,7 @@ Same as the original WebQuestionsSP QA dataset.
 
 
 
-#4. An example to show how to run the program
+# 4. An example to show how to run the program
 For exmpale, run the EmbedKGQA on 2 hops questions from MetaQA dataset with KG-50.
 
 Step1:Download data.zip and pretrained_model.zip from [here](https://drive.google.com/drive/folders/1RlqGBMo45lTmWz9MUPTq-0KcjSd3ujxc?usp=sharing). Unzip these files in the main directory.
@@ -124,4 +124,4 @@ Knowledge Graph Type:
 --kg_type Full
 --kg_type half
 
-#5. Operating System tested our program : Windows
+# 5. Operating System tested our program : Windows
