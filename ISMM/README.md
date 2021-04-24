@@ -21,7 +21,6 @@ All code was developed and tested in the following environment.
 Download the code and data:
 ```
 git clone https://github.com/lanyunshi/Multi-hopQA.git
-
 ```
 ## How to Execute
 Open the ```ISMM.ipynb``` file, it contains the instructions needed to run the code.
@@ -65,4 +64,4 @@ Task 0 is set to train your own model. The data is pre-processed and the model i
 
 * Note that in our project, the code to get parts of  experimental results is obtained by modifying the default parameters in the ```options.py```, so our notebook file may not contain all the parameters.
 
-
+## which System tested our program : Colab(linux)
